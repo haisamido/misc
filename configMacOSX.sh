@@ -12,13 +12,13 @@ brew install cask
 brew update && brew cleanup
 
 # Installs shell applications
-brew install bash bash-completion jq tree tmux wget lz4 wget curl rsync octave gnuplot ansible openvpn speedtest_cli gnupg
+brew install bash bash-completion jq tree tmux wget lz4 wget curl rsync octave gnuplot ansible openvpn speedtest_cli gnupg htop nmap tcpdump
 
 # Install gnu dev tools
-brew install git make autoconf gawk gcc gnu-sed coreutils colordiff 
+brew install git make autoconf gawk gcc gnu-sed coreutils colordiff gdb
 
 # Installs more goodies
-brew install go graphviz poppler consul mysql
+brew install go graphviz poppler consul mysql kubernetes-cli
 pip install Flask
 
 # Installs aws cli and shell tools
@@ -27,14 +27,17 @@ curl -o /usr/local/bin/ecs-cli https://s3.amazonaws.com/amazon-ecs-cli/ecs-cli-d
 # cd ~/Downloads && wget https://s3.amazonaws.com/publicsctdownload/MacOS/aws-schema-conversion-tool-1.0.latest.zip && unzip aws-schema-conversion-tool-1.0.latest.zip 
 
 # Installs native mac os x apps
+brew cask install xquartz
+brew cask install nomachine
 brew cask install virtualbox
 brew cask install java
 brew cask install google-chrome firefox
 brew cask install postgres pgadmin4
-brew cask install visual-studio-code sublime-text webstorm google-web-designer pycharm-ce atom emacs jedit 
+brew cask install visual-studio-code sublime-text webstorm google-web-designer pycharm-ce atom emacs jedit libreoffice lyx
 brew cask install Slack iTerm2 gimp inkscape Cyberduck xoctave scilab 
 brew cask install meld DiffMerge
-brew cask install Docker
-brew cask install libreoffice
+brew cask install Docker kitematic
+brew cask install Celestia Stellarium
+cd ~/Downloads && wget https://central.github.com/deployments/desktop/desktop/latest/darwin && mv ./darwin GitHubDesktop.zip && cd /Applications && unzip ~/Downloads/GitHubDesktop.zip
 #brew cask install mamp
 
