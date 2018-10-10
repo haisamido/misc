@@ -1,13 +1,21 @@
 xcode-select --install
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-brew doctor
+
+# Installs homebrew
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+#brew doctor
 # http://macappstore.org/
-brew install caskroom/cask/brew-cask
-brew update && brew upgrade brew-cask && brew cleanup && brew cask cleanup
-#
-brew install jq bash tree tmux gawk gcc gnu-sed coreutils colordiff speedtest_cli autoconf go graphviz poppler consul lz4 wget curl rsync octave gnuplot
+
+# Installs cask which allows one to install mac os x native applications (below)
+brew install cask
+
+# Housecleaning
+brew update && brew cleanup
+
+# Installs shell applications
+brew install jq bash tree tmux wget lz4 wget curl rsync octave gnuplot gawk gcc gnu-sed coreutils colordiff speedtest_cli autoconf go graphviz poppler consul 
 brew install aws-shell awscli
-#
+
+# Installs native mac os x apps
 brew cask install virtualbox
 brew cask install java
 brew cask install google-chrome firefox
