@@ -38,6 +38,6 @@ brew cask install Slack iTerm2 gimp inkscape Cyberduck xoctave scilab
 brew cask install meld DiffMerge
 brew cask install Docker kitematic
 brew cask install Celestia Stellarium
-cd ~/Downloads && wget https://central.github.com/deployments/desktop/desktop/latest/darwin && mv ./darwin GitHubDesktop.zip && cd /Applications && unzip ~/Downloads/GitHubDesktop.zip
+cd ~/Downloads && wget https://central.github.com/deployments/desktop/desktop/latest/darwin && mv ./darwin GitHubDesktop.zip && cd /Applications && unzip -o ~/Downloads/GitHubDesktop.zip
 #brew cask install mamp
 
