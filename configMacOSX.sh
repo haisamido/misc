@@ -27,6 +27,7 @@ curl -o /usr/local/bin/ecs-cli https://s3.amazonaws.com/amazon-ecs-cli/ecs-cli-d
 # cd ~/Downloads && wget https://s3.amazonaws.com/publicsctdownload/MacOS/aws-schema-conversion-tool-1.0.latest.zip && unzip aws-schema-conversion-tool-1.0.latest.zip 
 
 # Installs native mac os x apps
+brew cask install adobe-acrobat-reader
 brew cask install xquartz
 brew cask install nomachine
 brew cask install virtualbox
