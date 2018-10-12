@@ -33,9 +33,12 @@ brew install htop
 brew isntall nmap 
 brew install tcpdump
 brew install nano
+brew install mc
+brew install peco
 
 # Install gnu dev tools
-brew install git 
+brew install git
+brew install tig
 brew install make 
 brew install autoconf 
 brew install gawk 
@@ -43,7 +46,7 @@ brew install gcc
 brew install gnu-sed 
 brew install coreutils 
 brew install colordiff 
-brew isntall gdb
+brew install gdb
 
 # Installs more goodies
 brew install go
