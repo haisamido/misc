@@ -35,6 +35,9 @@ brew install tcpdump
 brew install nano
 brew install mc
 brew install peco
+brew install geoip
+brew install lynx
+brew install links
 
 # Install gnu dev tools
 brew install git
@@ -80,7 +83,6 @@ brew cask install emacs
 brew cask install jedit 
 brew cask install libreoffice 
 brew cask install lyx
-brew cask install links
 brew cask install Slack 
 brew cask install iTerm2 
 brew cask install gimp 
