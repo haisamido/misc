@@ -55,7 +55,8 @@ brew install gdb
 brew install go
 brew install graphviz 
 brew install poppler 
-brew install consul mysql 
+brew install consul 
+brew install mysql 
 brew install kubernetes-cli
 pip install Flask
 
