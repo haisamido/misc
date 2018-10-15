@@ -2,12 +2,12 @@ xcode-select --install
 sudo xcodebuild -license accept
 
 # Installs or updates homebrew
-which -s brew
-if [[ $? != 0 ]] ; then
-    # Install Homebrew
-    /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+if [[ $(command -v brew) == "" ]]; then
+  echo "Installing Hombrew"
+  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 else
-    brew update
+  echo "Updating Homebrew"
+  brew update
 fi
 # http://macappstore.org/
 
