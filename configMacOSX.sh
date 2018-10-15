@@ -60,6 +60,8 @@ brew install consul
 brew install mysql 
 brew install kubernetes-cli
 brew install cspice
+brew install docker-squash
+brew install node
 #pip install Flask
 
 # Installs aws cli and shell tools
