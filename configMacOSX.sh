@@ -59,6 +59,7 @@ brew install poppler
 brew install consul 
 brew install mysql 
 brew install kubernetes-cli
+brew install cspice
 #pip install Flask
 
 # Installs aws cli and shell tools
@@ -107,6 +108,7 @@ brew cask install mysqlworkbench
 brew cask install mamp
 brew cask install kindle
 brew cask install skype
+brew cask install macvim
 
 # Astronomy Software
 brew cask install Celestia 
