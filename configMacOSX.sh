@@ -114,6 +114,7 @@ brew cask install meld
 brew cask install DiffMerge
 
 # Other things
+brew cask install firefox
 brew cask install Slack 
 brew cask install iTerm2 
 brew cask install gimp 
