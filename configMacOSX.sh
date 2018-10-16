@@ -28,11 +28,8 @@ brew install lz4
 brew install wget 
 brew install curl 
 brew install rsync 
-brew install octave 
-brew install gnuplot 
 brew install ansible 
 brew install openvpn 
-brew install speedtest_cli 
 brew install gnupg 
 brew install watch 
 brew install htop 
@@ -41,9 +38,6 @@ brew install tcpdump
 brew install nano
 brew install mc
 brew install peco
-brew install geoip
-brew install lynx
-brew install links
 
 # Install gnu dev tools
 brew install git
@@ -58,18 +52,24 @@ brew install colordiff
 brew install gdb
 
 # Installs more goodies
-brew install go
+brew install octave 
+brew install gnuplot 
 brew install graphviz 
 brew install poppler 
 brew install consul 
 brew install mysql 
+brew install docker-squash
 brew install kubernetes-cli
 brew install cspice
-brew install docker-squash
 brew install node
+brew install speedtest_cli 
+brew install geoip
+brew install lynx
+brew install links
+brew install go
 #pip install Flask
 
-# Installs aws cli and shell tools
+# Installs AWS tools
 brew install aws-shell 
 brew install awscli
 brew install awslogs
@@ -82,14 +82,23 @@ brew cask install adobe-acrobat-reader
 brew cask install xquartz # X11
 brew cask install nomachine
 brew cask install virtualbox
+brew cask install Docker 
+brew cask install kitematic
 brew cask install java
+
+# Googlaid
 brew cask install google-backup-and-sync
 brew cask install google-chrome firefox
 brew cask install google-earth-pro
 brew cask install google-hangouts
-brew cask install google-web-designer 
+
+# Databases
 brew cask install postgres 
 brew cask install pgadmin4
+brew cask install sqlitemanager
+brew cask install mysqlworkbench
+
+# Editors & text tools
 brew cask install visual-studio-code 
 brew cask install sublime-text
 brew cask install webstorm 
@@ -99,23 +108,25 @@ brew cask install emacs
 brew cask install jedit 
 brew cask install libreoffice 
 brew cask install lyx
+brew cask install macvim
+brew cask install google-web-designer
+brew cask install meld 
+brew cask install DiffMerge
+
+# Other things
 brew cask install Slack 
 brew cask install iTerm2 
 brew cask install gimp 
 brew cask install inkscape 
-brew cask install Cyberduck 
+brew cask install Cyberduck
+
+# Sciences and mathematics
 brew cask install xoctave 
 brew cask install scilab
-brew cask install meld 
-brew cask install DiffMerge
-brew cask install Docker 
-brew cask install kitematic
-brew cask install sqlitemanager
-brew cask install mysqlworkbench
+
 brew cask install mamp
 brew cask install kindle
 brew cask install skype
-brew cask install macvim
 
 # Astronomy Software
 brew cask install Celestia 
