@@ -38,6 +38,7 @@ brew install tcpdump
 brew install nano
 brew install mc
 brew install peco
+brew install parallel
 
 # Install gnu dev tools
 brew install git
