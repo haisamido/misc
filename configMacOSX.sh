@@ -75,6 +75,8 @@ brew install aws-shell
 brew install awscli
 brew install awslogs
 brew install amazon-ecs-cli
+brew cask install osxfuse
+brew install s3fs
 # cd ~/Downloads && wget https://s3.amazonaws.com/publicsctdownload/MacOS/aws-schema-conversion-tool-1.0.latest.zip && unzip aws-schema-conversion-tool-1.0.latest.zip 
 
 # Installs native mac os x apps
