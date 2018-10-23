@@ -1,4 +1,5 @@
-xcode-select --install
+sudo softwareupdate -i -a
+sudo xcode-select --install
 sudo xcodebuild -license accept
 
 # Installs or updates homebrew
@@ -16,6 +17,8 @@ brew install cask
 
 # Housecleaning
 brew update && brew cleanup
+
+# Update outdated applications if there are any
 brew outdated | xargs brew upgrade
 
 # Installs shell applications
