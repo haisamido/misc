@@ -72,6 +72,8 @@ brew install geoip
 brew install lynx
 brew install links
 brew install go
+brew install sshfs
+pip install h5py
 #pip install Flask
 
 # Installs AWS tools
