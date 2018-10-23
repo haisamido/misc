@@ -16,6 +16,7 @@ brew install cask
 
 # Housecleaning
 brew update && brew cleanup
+brew outdated | xargs brew upgrade
 
 # Installs shell applications
 brew install bash 
