@@ -117,7 +117,6 @@ brew cask install emacs
 brew cask install jedit 
 brew cask install libreoffice 
 brew cask install lyx
-brew cask install macvim
 brew cask install google-web-designer
 brew cask install meld 
 brew cask install DiffMerge
