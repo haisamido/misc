@@ -94,6 +94,7 @@ brew cask install virtualbox
 brew cask install Docker 
 brew cask install kitematic
 brew cask install java
+brew cask install brave-browser
 
 # Googlaid
 brew cask install google-backup-and-sync
