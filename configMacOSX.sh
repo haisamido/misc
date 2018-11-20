@@ -69,11 +69,12 @@ brew install cspice
 brew install node
 brew install speedtest_cli 
 brew install geoip
-brew install lynx
+#brew install lynx
 brew install links
 brew install go
 brew install sshfs
 pip install h5py
+pip install pyyaml
 #pip install Flask
 
 # Installs AWS tools
@@ -96,9 +97,10 @@ brew cask install kitematic
 brew cask install java
 brew cask install brave-browser
 
-# Googlaid
+# Googlaid (not really)
 brew cask install google-backup-and-sync
-brew cask install google-chrome firefox
+brew cask install google-chrome 
+brew cask install firefox
 brew cask install google-earth-pro
 brew cask install google-hangouts
 
@@ -139,6 +141,6 @@ brew cask install kindle
 brew cask install skype
 
 # Astronomy Software
-brew cask install Celestia 
-brew cask install Stellarium
+#brew cask install Celestia 
+#brew cask install Stellarium
 
