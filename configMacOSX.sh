@@ -69,7 +69,7 @@ brew install cspice
 brew install node
 brew install speedtest_cli 
 brew install geoip
-#brew install lynx
+brew install lynx
 brew install links
 brew install go
 brew install sshfs
@@ -119,7 +119,7 @@ brew cask install atom
 brew cask install emacs 
 brew cask install jedit 
 brew cask install libreoffice 
-brew cask install lyx
+#brew cask install lyx
 brew cask install google-web-designer
 brew cask install meld 
 brew cask install DiffMerge
