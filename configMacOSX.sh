@@ -43,6 +43,7 @@ brew install nano
 brew install mc
 brew install peco
 brew install parallel
+brew install clamav
 
 # Install gnu dev tools
 brew install git
