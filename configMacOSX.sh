@@ -18,8 +18,10 @@ brew install cask
 # Housecleaning
 brew update && brew cleanup
 
-# Update outdated applications if there are any
-brew outdated | xargs brew upgrade
+# Upgrade applications if there are any
+#brew outdated | xargs brew upgrade
+brew upgrade 
+brew cask upgrade
 
 # Installs shell applications
 brew install bash 
@@ -44,6 +46,7 @@ brew install mc
 brew install peco
 brew install parallel
 brew install clamav
+brew install openconnect
 
 # Install gnu dev tools
 brew install git
@@ -142,6 +145,6 @@ brew cask install kindle
 brew cask install skype
 
 # Astronomy Software
-#brew cask install Celestia 
-#brew cask install Stellarium
+brew cask install Celestia 
+brew cask install Stellarium
 
