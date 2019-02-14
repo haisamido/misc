@@ -47,6 +47,8 @@ brew install peco
 brew install parallel
 brew install clamav
 brew install openconnect
+brew install rpm2cpio
+brew install p7zip
 
 # Install gnu dev tools
 brew install git
