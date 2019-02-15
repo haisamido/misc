@@ -61,6 +61,7 @@ brew install gnu-sed
 brew install coreutils 
 brew install colordiff 
 brew install gdb
+sudo easy_install pip
 
 # Installs more goodies
 brew install octave 
