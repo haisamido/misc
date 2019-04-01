@@ -45,7 +45,7 @@ brew install nano
 brew install mc
 brew install peco
 brew install parallel
-brew install clamav
+#brew install clamav
 brew install openconnect
 brew install rpm2cpio
 brew install p7zip
